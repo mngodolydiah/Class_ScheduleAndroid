@@ -1,0 +1,131 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/fab_margin"
+    android:paddingStart="@dimen/fab_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="top"
+    android:orientation="vertical"
+    android:background="#C0C0C0"
+    tools:context="mng.classexamFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add your classes or exams here "
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:textSize="15sp"
+        />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+        <TableRow>
+            <TextView
+                android:text="Unit"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/id"
+                android:layout_weight="1"
+                android:inputType="none"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Day"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/name"
+                android:layout_weight="1"
+                android:hint="Mon"
+
+                android:inputType="text"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Date"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/em"
+                android:layout_weight="1"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Time"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/ps"
+                android:layout_weight="1"
+                android:inputType="text"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Venue"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/db"
+                android:layout_weight="1"
+                android:inputType="none"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
+
+            <Button
+
+                android:id="@+id/bt2"
+                android:text="SAVE CLASS"
+                android:textStyle="bold"
+                android:layout_marginRight="20dp"
+                android:layout_column="1"
+                android:textColor="#ffffff"
+                android:theme="@style/Animation.AppCompat.DropDownUp"
+                android:typeface="sans"
+                android:onClick="submit"
+                android:background="#070707" />
+            <Button
+
+                android:id="@+id/bt3"
+                android:text="SAVE EXAM"
+                android:textStyle="bold"
+                android:layout_marginRight="20dp"
+                android:layout_column="3"
+                android:textColor="#ffffff"
+                android:theme="@style/Animation.AppCompat.DropDownUp"
+                android:typeface="sans"
+                android:onClick="submit"
+                android:background="#070707" />
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

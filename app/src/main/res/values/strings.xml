@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Class_Schedule</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_newclass">New Item</string>
+    <string name="action_delete">Delete</string>
+    <string name="title_activity_signin">SigninActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_class">classActivity</string>
+
+    <string name="title_activity_pal">pal</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_gallery1">Gallery1</string>
+    <string name="title_activity_class2">Class2</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@android:style/Theme.Holo.Light"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mng.r.lydia.class_schedule.SigninActivity"
+    tools:showIn="@layout/activity_signin"
+    android:weightSum="1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+        <TableRow>
+            <TextView
+
+                android:textStyle="bold"
+                android:id="@+id/txtd"/>
+
+        </TableRow>
+
+        <TableRow>
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Student ID"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/id"
+                android:layout_weight="1"
+                android:inputType="none"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Name"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/name"
+                android:layout_weight="1"
+                android:hint="First_name Last_name"
+
+                android:inputType="text"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Email"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/em"
+                android:layout_weight="1"
+                android:inputType="textWebEmailAddress" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Password"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/ps"
+                android:layout_weight="1"
+                android:password="true"/>
+        </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:text="Country"
+                android:textStyle="bold"/>
+            <AutoCompleteTextView
+                android:id="@+id/ct"
+                android:layout_width="wrap_content"
+                android:hint="Tanzania"
+                android:layout_height="wrap_content"
+                />
+            <MultiAutoCompleteTextView
+                android:id="@+id/ct1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3" />
+        </TableRow>
+        <TableRow
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/bt1"
+
+                android:text="SIGN-UP"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_column="1"
+                />
+
+
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
